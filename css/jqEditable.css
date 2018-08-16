@@ -1,0 +1,32 @@
+.jqEditable-component {
+   position: relative;
+   min-width: 20px;
+   cursor: default;
+}
+.jqEditable-selectable {
+   cursor: pointer;
+}
+.jqEditable-input-area {
+   min-width: 5px;
+   color: #000;
+}
+.jqEditable-edit-makeEdit {
+   float: right;
+   font-style: italic;
+}
+.jqEdtiable-edit-value {
+   float: left;
+   min-width: 33px;
+}
+.jqEditable-buttons {
+   box-shadow: 0 3px 6px rgba(100, 100, 100,0.2);
+   padding: 3px;
+   position: absolute;
+   z-index: 1;
+}
+.jqEditable-buttons-size {
+   font-size: 10px;
+   width: 24px;
+   height: 24px;
+   padding: 1px;
+}
