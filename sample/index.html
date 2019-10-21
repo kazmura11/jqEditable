@@ -23,8 +23,9 @@ function cancel() {
     console.log("cancel!");
 }
 $(document).ready(function() {
-    JqEditable('id1', save, cancel);
-    JqEditable('id2', save, cancel);
+    for (var i = 0; i < 3; i++) {
+        new JqEditable('id' + (i+1), save, cancel);
+    }
 });
 </script>
 
@@ -49,6 +50,10 @@ $(document).ready(function() {
         <tr>
             <td>2</td>
             <td id="id2">test 2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td id="id3">test 3</td>
         </tr>
     </tbody>
 </table>

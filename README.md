@@ -1,4 +1,1 @@
-Ajaxを使ってテキストフィールドをEditしたいときに使えるJavaScriptライブラリです。  
-JavaScript練習用で使っているものなのでご自由にお使い下さい。  
-ライセンスはMITとしていますが、じつのところ、あまりに簡単なものなので  
-JQuery以外はMITですらない扱いでよいです(CC0でよいです)。
+This is the library for making fields editable by javascript.
